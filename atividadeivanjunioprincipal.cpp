@@ -2,9 +2,9 @@
 #include <stdlib.h> // bblioteca de alocação de espaço de memória
 #include <locale.h> // biblioteca de alocações de textos por regiões
 #include <string.h> //  biblioteca responsaél por cuidar das string
-#include <iostream>
+#include <iostream> // executa operações de leitura
 
-using namespace std; 
+using namespace std; // utilizado para que não se repita o std em todos os comandos padrões de linguagem
 
    int Registro() // função responsavel por cadastrar os usuários no sistema
    
@@ -75,8 +75,7 @@ using namespace std;
 	fclose(file); // fechar arquivo	
 	
 	system("pause"); // pausar para o usuário no sistema
-	
-	
+
 	}
     
     int Comsulta()// fumção responsavel por consultar usuário no sistema
@@ -154,7 +153,7 @@ using namespace std;
 	   	printf("\n\nO usuário não se encontra no sistema!.\n\n");// // informações na tela do sistema
 	   	system("pause"); // responsavel por pausar a tela pro usuário no sistema
 	   }
-	
+	   
 	}
    
    
@@ -204,8 +203,7 @@ using namespace std;
 		printf("Essa opção não está disponível!\n"); // 
 		system("pause"); // responsalvel por pausar a tela pro usuário no sistema
 		break;
-	    	
-	    
+	
 	}
 	
 	}
